@@ -1,7 +1,6 @@
 print("Python is a slow language")
 
-number = input("Text number: ")
-print(number)
+print(input()) 
 
 a = False
 
@@ -18,3 +17,8 @@ class Weapon:
         func(666)
 
 bullet = Weapon("AK-47 " * 3)
+
+tupl = ("ahia", 20)
+
+# x = lambda a : a + 10
+# print("Lambda function: " + x(10))
